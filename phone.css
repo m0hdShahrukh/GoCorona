@@ -1,0 +1,52 @@
+@media only screen and (max-width:780px) {
+    .indexbody {
+        background: url(bg5.jpg) no-repeat center center/cover;
+        content: "";
+        z-index: -1;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    div.para1 {
+        font-family: 'Crimson Text', serif;
+        margin: 20px auto;
+        display: table;
+        font-size: 1.2rem;
+        font-weight: normal;
+        background: white;
+        opacity: 0.75;
+        padding: 19px 12px;
+        height: 70vh;
+        border-radius: 35px;
+        width: 70%;
+    }
+    .container,
+    .indexul,
+    .items,
+    a {
+        color: yellow;
+        background-color: #359445;
+        font-size: 1.3rem;
+        font-family: 'Mate SC', serif;
+        font-weight: bolder;
+        list-style: none;
+        text-decoration: none;
+        display: grid;
+        margin: 2px 24px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+.bg2::before {
+    background: url(bg2.jpg) no-repeat center center/cover;
+    content: "";
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+}
